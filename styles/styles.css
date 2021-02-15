@@ -1,0 +1,132 @@
+body{
+    font-size: 18px;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif;
+}
+
+/* Content */
+.content{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-top{
+    right: 50%;
+    bottom: 43%;
+    position: fixed;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 0.6);
+}
+
+.img-top:hover{
+    filter: blur(30px);
+}
+
+.img-bottom{
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 0.6);
+}
+
+.img-bottom:hover{
+    filter: blur(30px);
+}
+
+/* Card */
+.card{
+    width: 350px;
+    height: 376px;
+    z-index: 1000;
+    position: relative;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 15px 40px 1px hsl(227, 10%, 46%);
+}
+
+.card-header{
+    height: auto;
+}
+
+.card-img{
+    margin: auto;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card-content-img{
+    bottom: 55px;    
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    transform: scale(1);
+    justify-content: center;
+    transition: transform 0.5s;
+}
+
+.card-content-img:hover{
+    transform: scale(1.2);
+}
+
+.card-img-profile{
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+
+.card-body{
+    bottom: 55px;
+    position: relative;
+}
+
+.card-info{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-follow {
+    padding-top: 25px;
+    border-top: 1px solid hsl(0, 0%, 91%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Info card */
+
+.card-name{
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.card-age{
+    margin: 0px 10px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+.card-live{
+    font-size: 14px;
+    font-weight: 300;
+    margin: -7px 0 15px;
+    color: hsl(227, 10%, 46%);
+}
+
+.card-info-follow{
+    text-align: center;
+}
+
+.card-numbers{
+    margin: 0;
+    font-weight: 700;
+    color: hsl(29, 23%, 23%);
+}
+
+.card-text{
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: hsl(227, 10%, 46%);
+}
