@@ -212,8 +212,7 @@ body{
         height: 175vh;
         display: flex;
         align-items: center;
-        justify-content: center;
-        max-width: 1000px;
+        justify-content: center;        
         font-size: 30px;
     }
 
