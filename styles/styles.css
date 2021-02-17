@@ -204,3 +204,32 @@ body{
     letter-spacing: 2px;
     color: var(--gray);
 }
+
+/* Mobile */
+@media(max-width: 376px){
+    .content{
+        width: 175vw;
+        height: 175vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1000px;
+        font-size: 30px;
+    }
+
+    .container{        
+        margin: auto; 
+        position: absolute;   
+        left: 85%;
+    }
+
+    .card{
+        width: 350px;
+        height: 430px;
+        z-index: 1000;
+        position: relative;
+        border-radius: 15px;
+        background-color: var(--white);
+        box-shadow: 0px 15px 40px 1px var(--card-shadow)
+    }
+}
